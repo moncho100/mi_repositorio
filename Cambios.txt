@@ -1,0 +1,116 @@
+CAMBIOS
+
+Keywords
+
+Brasileirao: Agregue estos cambios,La redonda, Ligas, Ultimo campeon, Equipo, Jugadores, Posicion, Nacimiento, Edad, Gabriel Barbosa, Vitinho, Bruno Enrique, Diego Alves, Portero, Defensa central, Pivote, Delantero centro, Flamengo, Fluminense, Internacional, Santos, Palmeiras, Corinthians, Sao Paulo.
+La Liga: Agregue estos cambios, Real Madrid, Atletico Madrid, Argentina, Brasil, España, Ultimo campeon, Plantel, Posicion, Jugadores, Portero, Jan Oblak, Luis Suárez, Diego Costa, Vitolo, Ángel Correa, Moussa Dembele, Redes Sociales, La Liga, Sevilla, Tabla de posiciones, Equipo, Villareal, Real Betis, Ligas, Equipos Participantes, Brasileirao, Premier league, La Liga.
+Ligue 1: Agregue estos cambios, Argentina, Brasil, España, Inglaterra, Italia, Portugal, Lille, PSG, Monaco, Lyon, Marsella, Niza, Lens, Angers, Plantel, Ultimo campeon, T. Weah, Bica, J. David, L. Araújo, Redes Sociales, Tabla de posiciones, Ligue 1, Montpellier, Equipo.
+Premier League: Agregue estos cambios, Premier League, Redes Sociales, Liverpool, Manchester City, Sergio Aguero, Ultimo campeon, Argentina, Brasil, Inglaterra, España, Italia, Francia, Portugal, Brasileirao, Premier League, La Liga, Serie A, Ligue 1, Equipos participantes, Plantel, Jugador, K. De Bruyne, Phil Foden, Rahemm Sterling, R. Mahrez, Chelsea, Manchester United, Tottenham.
+Serie A: Agregue estos cambios, Inter, Milan, Argentina, Brasil, Brasileirao, España, Italia, Serie A, Equipos Participantes, Plantel, Posicion, Jugadores, Ultimo campeon, Ionut Radu, Alexis Sanchez, Romelu Lukaku, Lautaro Martinez, Arturo Vidal, Nicoló Barella, Redes Sociales, Roma, Lazio, Fiorentina.
+
+Description
+
+Brasileirao: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre el Brasileirao, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol.
+La Liga: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre La Liga, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol.
+Ligue 1: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre la Ligue 1, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol.
+Premier League: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre la Premier League, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol.
+Serie A: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre la Serie A, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol.
+
+Titulos
+
+Brasileirao: La redonda Brasileirao.
+La Liga: La redonda La Liga.
+Ligue 1: La redonda Ligue 1.
+Premier League: La redonda Premier League.
+Serie A: La redonda Serie A.
+
+Encabezado
+
+Brasileirao: Puse la redonda dentro de la etiqueta h1.
+La Liga: Puse las Redes Sociales dentro de un h3, antes estaba en un h2.
+Ligue 1: Puse las Redes Sociales dentro de un h3, antes estaba en un h2.
+Premier League: Puse las Redes Sociales dentro de un h3, antes estaba en un h2.
+Serie A: Puse las Redes Sociales dentro de un h3, antes estaba en un h2.
+
+
+DESAFIO OPCIONAL
+
+
+Cambio 1
+
+Brasileirao: Agregue estos cambios,La redonda, Ligas, Ultimo campeon, Equipo, Jugadores, Posicion, Nacimiento, Edad, Gabriel Barbosa, Vitinho, Bruno Enrique, Diego Alves, Portero, Defensa central, Pivote, Delantero centro, Flamengo, Fluminense, Internacional, Santos, Palmeiras, Corinthians, Sao Paulo. Agregue la meta keywords.
+ Justificacion: Para que sea mas facil encontrar el sitio web.
+
+Cambio 2
+La Liga: Agregue estos cambios, Real Madrid, Atletico Madrid, Argentina, Brasil, España, Ultimo campeon, Plantel, Posicion, Jugadores, Portero, Jan Oblak, Luis Suárez, Diego Costa, Vitolo, Ángel Correa, Moussa Dembele, Redes Sociales, La Liga, Sevilla, Tabla de posiciones, Equipo, Villareal, Real Betis, Ligas, Equipos Participantes, Brasileirao, Premier league, La Liga. Agregue la meta keywords.
+ Justificacion: Para que sea mas facil encontrar el sitio web.
+
+Cambio 3
+Ligue 1: Agregue estos cambios, Argentina, Brasil, España, Inglaterra, Italia, Portugal, Lille, PSG, Monaco, Lyon, Marsella, Niza, Lens, Angers, Plantel, Ultimo campeon, T. Weah, Bica, J. David, L. Araújo, Redes Sociales, Tabla de posiciones, Ligue 1, Montpellier, Equipo. Agregue la meta keywords.
+ Justificacion: Para que sea mas facil encontrar el sitio web.
+
+Cambio 4
+Premier League: Agregue estos cambios, Premier League, Redes Sociales, Liverpool, Manchester City, Sergio Aguero, Ultimo campeon, Argentina, Brasil, Inglaterra, España, Italia, Francia, Portugal, Brasileirao, Premier League, La Liga, Serie A, Ligue 1, Equipos participantes, Plantel, Jugador, K. De Bruyne, Phil Foden, Rahemm Sterling, R. Mahrez, Chelsea, Manchester United, Tottenham. Agregue la meta keywords.
+ Justificacion: Para que sea mas facil encontrar el sitio web.
+
+Cambio 5
+Serie A: Agregue estos cambios, Inter, Milan, Argentina, Brasil, Brasileirao, España, Italia, Serie A, Equipos Participantes, Plantel, Posicion, Jugadores, Ultimo campeon, Ionut Radu, Alexis Sanchez, Romelu Lukaku, Lautaro Martinez, Arturo Vidal, Nicoló Barella, Redes Sociales, Roma, Lazio, Fiorentina. Agregue la meta keywords.
+ Justificacion: Para que sea mas facil encontrar el sitio web.
+
+
+Cambio  6
+
+Brasileirao: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre el Brasileirao, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol. Agregue la meta description.
+ Justificacion: Para tener una breve descripcion, de que va a tratar el sitio web.
+
+Cambio 7
+
+La Liga: Agregue estos cambios, Bienvenidos a la mejor pagina web sobre La Liga, donde encontraras el plantel del ultimo campeon, la tabla de posiciones, los mejores jugadores del torneo, todos los campeones, los equipos particiantes y mucho mas en La redonda, el mejor sitio web de futbol. Agregue la meta description.
+ Justificacion: Para tener una breve descripcion, de que va a tratar el sitio web.
+
+Cambio 8
+
+Brasileirao: La redonda Brasileirao. Cambie el titulo.
+ Justificacion: Porque el nombre actual, queda mejor al de ahora.
+
+Cambio 9
+La Liga: La redonda La Liga. Cambie el titulo.
+ Justificacion: Porque el nombre actual, queda mejor al de ahora.
+
+Cambio 10
+
+Brasileirao: Puse la redonda dentro de la etiqueta h1. Organize la jerarquia de archivos.
+ Justificacion: Para que quede mejor visualmente.
+
+Cambio 11
+
+La Liga: Puse las Redes Sociales dentro de un h3, antes estaba en un h2. Organize la jerarquia de archivos.
+ Justificacion: Para que quede mejor visualmente.
+
+Cambio 12
+Ligue 1: Puse las Redes Sociales dentro de un h3, antes estaba en un h2. Organize la jerarquia de archivos.
+ Justificacion: Para que quede mejor visualmente.
+
+Cambio 13
+
+Brasileirao: Puse el acento en las palabras campeón. Acomode la gramática.
+ Justificacion: Para que el sitio web, no tenga errores ortográficos.
+
+Cambio 14
+La Liga: Puse el acento en las palabras campeón. Acomode la gramática.
+ Justificacion: Para que el sitio web, no tenga errores ortográficos.
+
+Cambio 15
+
+Le puse alt a las siguientes imagenes: Benvento-mini-liga / Torino-mini-liga / Genoa-mini-logo / Fiorentina-mini-logo / Udinese-mini-logo. Describo que es la imagen, sino llega a cargar.
+ Justificacion: Para que si a alguien no le carga la imagen, aparezca un texto, que indique sobre que trata la imagen.
+
+
+
+
+
+
+
+
+
+
