@@ -1,0 +1,55 @@
+h1 {
+  color: blue; }
+
+h1 {
+  color: blue; }
+
+.facebook {
+  height: 55px; }
+
+.facebook:hover {
+  width: 30px; }
+
+.instagram {
+  height: 55px; }
+
+.instagram:hover {
+  width: 30px; }
+
+.twitter {
+  height: 55px; }
+
+.twitter:hover {
+  width: 30px; }
+
+.Linkedin {
+  height: 55px; }
+
+.Linkedin:hover {
+  width: 30px; }
+
+h3 {
+  text-align: center; }
+
+.estilosParaFooter {
+  display: flex; }
+
+.estilosParaFooter {
+  justify-content: space-around; }
+
+.estilosParaFooter {
+  align-items: center; }
+
+.estilosParaFooter {
+  padding-top: 23; }
+
+.contanier-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; } }
+
+nav {
+  background: black; }

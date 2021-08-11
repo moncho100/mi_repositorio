@@ -1,0 +1,1009 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Inicio de estilos sobre el body */
+body/*Es el color de fondo de toda la pagina */{
+    background:#122620;  /* Es el color del fondo del sitio web */  
+}
+/* Final de estilos sobre el body */
+
+/* Inicio de estilos para el sitio wueb */
+.EstiloParaTodo{
+    display: grid;
+    grid-template-areas: "header header" "section section" "footer footer";
+}
+/* Final de estilos para el sitio wueb */
+
+/* Inicio de estilos sobre el header */
+.estiloParaHeader{
+    background:papayawhip;
+    margin-bottom: 100px; /* Espacio hacia arriba */
+    padding-left: 35px; /* Espacio izquierdo entre el contenido y el borde */
+    padding-right: 35px; /* Espacio de la derecha entre el contenido y el borde */
+    margin-bottom: 30px; /* Espacio hacia abajo */
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 270px; /* Es el alto del header */
+    grid-area: header;
+}
+/* Final de estilos sobre el header */
+
+/* Inicio de estilos sobre el h1 */
+h1{
+    color:black; /* Es el color de las letras */
+    font-size: 3em; /* Es el tamaño de las letras */
+    text-align: center; /* Es donde esta ubicado el elemento */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Es el estilo de la letra */
+    margin-bottom: 70px; /* Es el espacio hacia abajo */
+}
+/* Final de estilos sobre el h2 */
+
+/* Inicio de estilos sobre el menu de navegacion */
+.estilosParaArgentina,
+.estilosParaBrasil,
+.estilosParaPortugal,
+.estilosParaFrancia,
+.estilosParaItalia,
+.estilosParaEspaña,
+.estilosParaInglaterra,
+.estilosParaContacto{
+  color: black;  /* Es el color de las letras */
+}
+/* Final de estilos sobre el menu de navegacion */
+
+
+.estilosParaNav{
+    position: relative;
+    background: gray;
+}
+
+ul{
+    list-style: none;
+    font-size: 0;
+}
+li{
+    display: inline-block;
+    width: 12%; /* Esto sirve para que cada 12%, vaya un li */
+    position: relative;
+    font-size: 21px; /* Es el tamaño de las letras */
+}
+ul ul{
+    position: absolute;
+    display: none;
+}
+ul ul li{
+    display: block;
+    padding: 0; /* Es el espacio entre el contenido y el borde */
+    width: 100% ; /* Es el ancho del elemento */
+}
+ul li:hover ul{
+    display: block; /* Hace que se comporte en bloque */
+    border: 1px solid black; /* Borde del submenu */
+    background: gold; /* Fondo del submenu */
+}
+nav ul li ul li a{
+    color: black; /* Es el color de las letras */
+}
+
+/* Inicio de estilos sobre la section */
+.estiloParaSection{
+  margin-bottom: 50px; /* Espacio para abajo entre cada seccion */
+  display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+  flex-wrap: wrap; /* Hace que los elementos se ubiquen segun sus propiedades( en este caso es el ancho) */
+  grid-area: section;
+  margin-right: 15px; /* Espacio de la derecha entre el borde y el browser */
+  margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+  background: #F4EBD0;
+}
+/* Final de estilos sobre la section */
+
+/* Inicio de estilos sobre los h2 */
+h2{
+    color: teal;/* Color de las letras del h2 */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Estilo de las letras */
+    text-align: center; /* Alinea el texto en el centro */
+    font-size: 35px; /* Tamaño de la letra */
+    padding-bottom: 10px; /* Espacio hacia abajo entre el h2 y el siguiente contenido */
+}
+/* Final de estilos sobre los h2 */
+h3{
+    text-align: center;
+    font-size: 28px;
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Estilo de las letras */
+    padding-bottom: 10px;
+}
+/* Inicio de estilos sobre el article 1, dedicado a los equipos participantes */
+.estilosParaArticle-1{
+    border: 2px  black dashed; /* Borde del articulo 1 */
+    margin-top: 20px; /* Espacio de arrriba entre el article 1 y el borde de la section */
+    margin-bottom: 50px; /* Espacio de abajo entre el article 1 y los demas article */
+    margin-left: 25px; /* Espacio de la izquierda entre el article 1 y el borde  de la section */
+    width: 90%; /* Ancho del article */
+}
+/* Final de estilos sobre el article 1, dedicado a los equipos participantes */
+
+/* Inicio de estilos sobre los elementos del article 1 */
+.contenedor-1,
+.contenedor-2,
+.contenedor-3,
+.contenedor-4{
+    display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+    justify-content: center; /* Alinea los elementos en el centro */
+    padding-bottom: 15px; /* Espacio entre los contenedores */
+}
+/* Final de estilos sobre los elementos del article 1 */
+/* Inicio de estilos sobre el article 2, dedicado al equipo campeon */
+.estilosParaArticle-2{
+    width: 45%; /* Ancho del articulo */
+    padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+    border: 2px black solid; /* Borde de todos los articulos */
+    margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+    margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+    margin-right: 15px; /* Espacio de la derecha entre los articulos */
+}
+/* Final de article 2, dedicado al equipo campeon */
+
+/* Inicio de estilos sobre el article 3, dedicado a las posiciones */
+.estilosParaArticle-3{
+    width: 45%; /* Ancho del article */
+    height: 41%; /* Alto del article */
+    padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+    border: 2px black solid; /* Borde de todos los articulos */
+    margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+    margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+    margin-right: 15px; /* Espacio de la derecha entre los articulos */
+}
+/* Final de article 3, dedicado a las posiciones */
+
+.estilosParaArticle-3a{
+    width: 45%; /* Ancho del article */
+    height: 43%; /* Alto del article */
+    padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+    border: 2px black solid; /* Borde de todos los articulos */
+    margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+    margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+    margin-right: 15px; /* Espacio de la derecha entre los articulos */
+}
+
+/*Inicio de estilos sobre el article 4, dedicado a los goleadores */
+.estilosParaArticle-4 {
+    width: 45%; /* Ancho del article */
+    padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+    border: 2px black solid; /* Borde de todos los articulos */
+    margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+    margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+    margin-right: 15px; /* Espacio de la derecha entre los articulos */
+}
+/* Finald e article 4, dedicado a los goleadores */
+
+/* Inicio de estilos sobre el article 5, dedicado a los asistidores */
+.estilosParaArticle-5{
+    width: 45%; /* Ancho del article */
+    padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+    border: 2px black solid; /* Borde de todos los articulos */
+    margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+    margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+    margin-right: 15px; /* Espacio de la derecha entre los articulos */
+}
+/* Final de estilos sobre el article 5, dedicado a los asistidores */
+
+/* Inicio de estilos sobre la table */
+table{
+    margin: 0 auto; /* Sirve para centrar las tablas */
+}
+/* Final de estilos sobre la table */
+
+/*Inicios de estilos sobre la caption */
+section article table caption /* Color del fondo y de las letras del titulo de la tabla */{
+    background: springgreen; /* Fondo del titulo de las tablas */
+    color: black; /* Color de las letras del titulo */
+    font-family: sans-serif; /* Estilo de la letra */
+    border: 3px black solid; /* Borde del titulo */
+}
+/* Final de estilos sobre la caption */
+
+/* Inicio de estilos sobre los th */
+table thead th{
+    border: 2px solid black; /* Bordes de los thbumeros,jugadores,etc) de la table */
+    color: darkred; /* Color de los th(posicion,numero,etc) de la table */
+    letter-spacing: 2px; /* Separacion entre las letras */
+}
+/* Final de estilos sobre los th */
+
+/* Inicio de estilos sobre los td */
+table tbody td{
+    border: 1px solid black; /* Borde de todos los td de las tablas */
+    word-spacing: 2px; /* Es el espacio entre las letras */
+}
+/* Final de esstilos sobre los td */
+
+/*Inicio de estilos sobre el footer */
+footer{
+    height: 70%;
+    padding-bottom: 50px; /* Espacio hacia abajo entre el contenido y el borde */
+    grid-area: footer;
+    margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+    margin-right: 15px; /* Espacio de la derecha entre el borde y el borwser */
+    background: #F4EBD0; /* Color del fondo */
+}   
+/* Final de estilos sobre el footer */
+
+.estilosParaFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 23px;
+}
+.facebook{
+    height: 55px;
+}
+
+.instagram{
+    height: 55px;
+}
+
+.twitter{
+    height: 55px;
+}
+
+.Linkedin{
+    height: 55px;
+}
+
+/* Vista mobile */
+@media only screen and (min-width: 0px) and (max-width: 767px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Inicio de estilos sobre el body */
+    body/*Es el color de fondo de toda la pagina */{
+        background:#122620;  /* Es el color del fondo del sitio web */  
+    }
+    /* Final de estilos sobre el body */
+    
+    /* Inicio de estilos para el sitio wueb */
+    .EstiloParaTodo{
+        display: grid;
+        grid-template-areas: "header header" "section section" "footer footer";
+    }
+    /* Final de estilos para el sitio wueb */
+    
+    /* Inicio de estilos sobre el header */
+    .estiloParaHeader{
+        background:papayawhip;
+        margin-bottom: 100px; /* Espacio hacia arriba */
+        padding-left: 35px; /* Espacio izquierdo entre el contenido y el borde */
+        padding-right: 35px; /* Espacio de la derecha entre el contenido y el borde */
+        margin-bottom: 30px; /* Espacio hacia abajo */
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 270px; /* Es el alto del header */
+        grid-area: header;
+    }
+    /* Final de estilos sobre el header */
+    
+    /* Inicio de estilos sobre el h1 */
+    h1{
+        color:black; /* Es el color de las letras */
+        font-size: 3em; /* Es el tamaño de las letras */
+        text-align: center; /* Es donde esta ubicado el elemento */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Es el estilo de la letra */
+        margin-bottom: 70px; /* Es el espacio hacia abajo */
+    }
+    /* Final de estilos sobre el h2 */
+    
+    /* Inicio de estilos sobre el menu de navegacion */
+    .estilosParaArgentina,
+    .estilosParaBrasil,
+    .estilosParaPortugal,
+    .estilosParaFrancia,
+    .estilosParaItalia,
+    .estilosParaEspaña,
+    .estilosParaInglaterra,
+    .estilosParaContacto{
+      color: black;  /* Es el color de las letras */
+    }
+    /* Final de estilos sobre el menu de navegacion */
+    
+    
+    .estilosParaNav{
+        position: relative;
+        background:gray ;
+    }
+    ul{
+        list-style: none;
+        font-size: 0;
+    }
+    li{
+        display: inline-block;
+        width: 12%; /* Esto sirve para que cada 12%, vaya un li */
+        position: relative;
+        font-size: 21px; /* Es el tamaño de las letras */
+    }
+    ul ul{
+        position: absolute;
+        display: none;
+    }
+    ul ul li{
+        display: block;
+        padding: 0; /* Es el espacio entre el contenido y el borde */
+        width: 100% ; /* Es el ancho del elemento */
+    }
+    ul li:hover ul{
+        display: block; /* Hace que se comporte en bloque */
+        border: 1px solid black; /* Borde del submenu */
+        background: gray; /* Fondo del submenu */
+    }
+    nav ul li ul li a{
+        color: black; /* Es el color de las letras */
+    }
+    
+    /* Inicio de estilos sobre la section */
+    .estiloParaSection{
+      margin-bottom: 50px; /* Espacio para abajo entre cada seccion */
+      display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+      flex-wrap: wrap; /* Hace que los elementos se ubiquen segun sus propiedades( en este caso es el ancho) */
+      grid-area: section;
+      margin-right: 15px; /* Espacio de la derecha entre el borde y el browser */
+      margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+      background: #F4EBD0;
+    }
+    /* Final de estilos sobre la section */
+    
+    /* Inicio de estilos sobre los h2 */
+    h2{
+        color: teal;/* Color de las letras del h2 */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Estilo de las letras */
+        text-align: center; /* Alinea el texto en el centro */
+        font-size: 35px; /* Tamaño de la letra */
+        padding-bottom: 10px; /* Espacio hacia abajo entre el h2 y el siguiente contenido */
+    }
+    /* Final de estilos sobre los h2 */
+    
+    /* Inicio de estilos sobre el article 1, dedicado a los equipos participantes */
+    .estilosParaArticle-1{
+        border: 2px  black dashed; /* Borde del articulo 1 */
+        margin-top: 20px; /* Espacio de arrriba entre el article 1 y el borde de la section */
+        margin-bottom: 50px; /* Espacio de abajo entre el article 1 y los demas article */
+        margin-left: 25px; /* Espacio de la izquierda entre el article 1 y el borde  de la section */
+        width: 100%; /* Ancho del article */
+    }
+    /* Final de estilos sobre el article 1, dedicado a los equipos participantes */
+    
+    /* Inicio de estilos sobre los elementos del article 1 */
+    .contenedor-1,
+    .contenedor-2,
+    .contenedor-3,
+    .contenedor-4{
+        display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+        justify-content: center; /* Alinea los elementos en el centro */
+        padding-bottom: 15px; /* Espacio entre los contenedores */
+    }
+    /* Final de estilos sobre los elementos del article 1 */
+    /* Inicio de estilos sobre el article 2, dedicado al equipo campeon */
+    .estilosParaArticle-2{
+        width: 100%; /* Ancho del articulo */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de article 2, dedicado al equipo campeon */
+    
+    /* Inicio de estilos sobre el article 3, dedicado a las posiciones */
+    .estilosParaArticle-3{
+        width: 100%; /* Ancho del article */
+        height: 41%; /* Alto del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de article 3, dedicado a las posiciones */
+    
+    .estilosParaArticle-3a{
+        width: 100%; /* Ancho del article */
+        height: 43%; /* Alto del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    
+    /*Inicio de estilos sobre el article 4, dedicado a los goleadores */
+    .estilosParaArticle-4 {
+        width: 100%; /* Ancho del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Finald e article 4, dedicado a los goleadores */
+    
+    /* Inicio de estilos sobre el article 5, dedicado a los asistidores */
+    .estilosParaArticle-5{
+        width: 100%; /* Ancho del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de estilos sobre el article 5, dedicado a los asistidores */
+    
+    /* Inicio de estilos sobre la table */
+    table{
+        margin: 0 auto; /* Sirve para centrar las tablas */
+    }
+    /* Final de estilos sobre la table */
+    
+    /*Inicios de estilos sobre la caption */
+    section article table caption /* Color del fondo y de las letras del titulo de la tabla */{
+        background: springgreen; /* Fondo del titulo de las tablas */
+        color: black; /* Color de las letras del titulo */
+        font-family: sans-serif; /* Estilo de la letra */
+        border: 3px black solid; /* Borde del titulo */
+    }
+    /* Final de estilos sobre la caption */
+    
+    /* Inicio de estilos sobre los th */
+    table thead th{
+        border: 2px solid black; /* Bordes de los thbumeros,jugadores,etc) de la table */
+        color: darkred; /* Color de los th(posicion,numero,etc) de la table */
+        letter-spacing: 2px; /* Separacion entre las letras */
+    }
+    /* Final de estilos sobre los th */
+    
+    /* Inicio de estilos sobre los td */
+    table tbody td{
+        border: 1px solid black; /* Borde de todos los td de las tablas */
+        word-spacing: 2px; /* Es el espacio entre las letras */
+    }
+    /* Final de esstilos sobre los td */
+    
+    /*Inicio de estilos sobre el footer */
+    footer{
+        height: 70%;
+        padding-bottom: 50px; /* Espacio hacia abajo entre el contenido y el borde */
+        grid-area: footer;
+        margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+        margin-right: 15px; /* Espacio de la derecha entre el borde y el borwser */
+        background: #F4EBD0; /* Color del fondo */
+    }   
+    /* Final de estilos sobre el footer */
+    
+    .estilosParaFooter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 23px;
+    }
+    .facebook{
+        height: 55px;
+    }
+    
+    .instagram{
+        height: 55px;
+    }
+    
+    .twitter{
+        height: 55px;
+    }
+    
+    .Linkedin{
+        height: 55px;
+    }
+}
+
+/* Vista entre desktop y mobile */
+@media only screen and (min-width: 768px) and (max-width: 1239px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Inicio de estilos sobre el body */
+    body/*Es el color de fondo de toda la pagina */{
+        background:#122620;  /* Es el color del fondo del sitio web */  
+    }
+    /* Final de estilos sobre el body */
+    
+    /* Inicio de estilos para el sitio wueb */
+    .EstiloParaTodo{
+        display: grid;
+        grid-template-areas: "header header" "section section" "footer footer";
+    }
+    /* Final de estilos para el sitio wueb */
+    
+    /* Inicio de estilos sobre el header */
+    .estiloParaHeader{
+        background:papayawhip;
+        margin-bottom: 100px; /* Espacio hacia arriba */
+        padding-left: 35px; /* Espacio izquierdo entre el contenido y el borde */
+        padding-right: 35px; /* Espacio de la derecha entre el contenido y el borde */
+        margin-bottom: 30px; /* Espacio hacia abajo */
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 270px; /* Es el alto del header */
+        grid-area: header;
+    }
+    /* Final de estilos sobre el header */
+    
+    /* Inicio de estilos sobre el h1 */
+    h1{
+        color:black; /* Es el color de las letras */
+        font-size: 3em; /* Es el tamaño de las letras */
+        text-align: center; /* Es donde esta ubicado el elemento */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Es el estilo de la letra */
+        margin-bottom: 70px; /* Es el espacio hacia abajo */
+    }
+    /* Final de estilos sobre el h2 */
+    
+    /* Inicio de estilos sobre el menu de navegacion */
+    .estilosParaArgentina,
+    .estilosParaBrasil,
+    .estilosParaPortugal,
+    .estilosParaFrancia,
+    .estilosParaItalia,
+    .estilosParaEspaña,
+    .estilosParaInglaterra,
+    .estilosParaContacto{
+      color: black;  /* Es el color de las letras */
+    }
+    /* Final de estilos sobre el menu de navegacion */
+    
+    
+    .estilosParaNav{
+        position: relative;
+        background:gray ;
+    }
+    ul{
+        list-style: none;
+        font-size: 0;
+    }
+    li{
+        display: inline-block;
+        width: 12%; /* Esto sirve para que cada 12%, vaya un li */
+        position: relative;
+        font-size: 21px; /* Es el tamaño de las letras */
+    }
+    ul ul{
+        position: absolute;
+        display: none;
+    }
+    ul ul li{
+        display: block;
+        padding: 0; /* Es el espacio entre el contenido y el borde */
+        width: 100% ; /* Es el ancho del elemento */
+    }
+    ul li:hover ul{
+        display: block; /* Hace que se comporte en bloque */
+        border: 1px solid black; /* Borde del submenu */
+        background: gray; /* Fondo del submenu */
+    }
+    nav ul li ul li a{
+        color: black; /* Es el color de las letras */
+    }
+    
+    /* Inicio de estilos sobre la section */
+    .estiloParaSection{
+      margin-bottom: 50px; /* Espacio para abajo entre cada seccion */
+      display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+      flex-wrap: wrap; /* Hace que los elementos se ubiquen segun sus propiedades( en este caso es el ancho) */
+      grid-area: section;
+      margin-right: 15px; /* Espacio de la derecha entre el borde y el browser */
+      margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+      background: #F4EBD0;
+    }
+    /* Final de estilos sobre la section */
+    
+    /* Inicio de estilos sobre los h2 */
+    h2{
+        color: teal;/* Color de las letras del h2 */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Estilo de las letras */
+        text-align: center; /* Alinea el texto en el centro */
+        font-size: 35px; /* Tamaño de la letra */
+        padding-bottom: 10px; /* Espacio hacia abajo entre el h2 y el siguiente contenido */
+    }
+    /* Final de estilos sobre los h2 */
+    
+    /* Inicio de estilos sobre el article 1, dedicado a los equipos participantes */
+    .estilosParaArticle-1{
+        border: 2px  black dashed; /* Borde del articulo 1 */
+        margin-top: 20px; /* Espacio de arrriba entre el article 1 y el borde de la section */
+        margin-bottom: 50px; /* Espacio de abajo entre el article 1 y los demas article */
+        margin-left: 25px; /* Espacio de la izquierda entre el article 1 y el borde  de la section */
+        width: 100%; /* Ancho del article */
+    }
+    /* Final de estilos sobre el article 1, dedicado a los equipos participantes */
+    
+    /* Inicio de estilos sobre los elementos del article 1 */
+    .contenedor-1,
+    .contenedor-2,
+    .contenedor-3,
+    .contenedor-4{
+        display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+        justify-content: center; /* Alinea los elementos en el centro */
+        padding-bottom: 15px; /* Espacio entre los contenedores */
+    }
+    /* Final de estilos sobre los elementos del article 1 */
+    /* Inicio de estilos sobre el article 2, dedicado al equipo campeon */
+    .estilosParaArticle-2{
+        width: 100%; /* Ancho del articulo */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de article 2, dedicado al equipo campeon */
+    
+    /* Inicio de estilos sobre el article 3, dedicado a las posiciones */
+    .estilosParaArticle-3{
+        width: 100%; /* Ancho del article */
+        height: 41%; /* Alto del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de article 3, dedicado a las posiciones */
+    
+    .estilosParaArticle-3a{
+        width: 100%; /* Ancho del article */
+        height: 43%; /* Alto del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    
+    /*Inicio de estilos sobre el article 4, dedicado a los goleadores */
+    .estilosParaArticle-4 {
+        width: 100%; /* Ancho del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Finald e article 4, dedicado a los goleadores */
+    
+    /* Inicio de estilos sobre el article 5, dedicado a los asistidores */
+    .estilosParaArticle-5{
+        width: 100%; /* Ancho del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de estilos sobre el article 5, dedicado a los asistidores */
+    
+    /* Inicio de estilos sobre la table */
+    table{
+        margin: 0 auto; /* Sirve para centrar las tablas */
+    }
+    /* Final de estilos sobre la table */
+    
+    /*Inicios de estilos sobre la caption */
+    section article table caption /* Color del fondo y de las letras del titulo de la tabla */{
+        background: springgreen; /* Fondo del titulo de las tablas */
+        color: black; /* Color de las letras del titulo */
+        font-family: sans-serif; /* Estilo de la letra */
+        border: 3px black solid; /* Borde del titulo */
+    }
+    /* Final de estilos sobre la caption */
+    
+    /* Inicio de estilos sobre los th */
+    table thead th{
+        border: 2px solid black; /* Bordes de los thbumeros,jugadores,etc) de la table */
+        color: darkred; /* Color de los th(posicion,numero,etc) de la table */
+        letter-spacing: 2px; /* Separacion entre las letras */
+    }
+    /* Final de estilos sobre los th */
+    
+    /* Inicio de estilos sobre los td */
+    table tbody td{
+        border: 1px solid black; /* Borde de todos los td de las tablas */
+        word-spacing: 2px; /* Es el espacio entre las letras */
+    }
+    /* Final de esstilos sobre los td */
+    
+    /*Inicio de estilos sobre el footer */
+    footer{
+        height: 70%;
+        padding-bottom: 50px; /* Espacio hacia abajo entre el contenido y el borde */
+        grid-area: footer;
+        margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+        margin-right: 15px; /* Espacio de la derecha entre el borde y el borwser */
+        background: #F4EBD0; /* Color del fondo */
+    }   
+    /* Final de estilos sobre el footer */
+    
+    .estilosParaFooter{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 23px;
+    }
+    .facebook{
+        height: 55px;
+    }
+    
+    .instagram{
+        height: 55px;
+    }
+    
+    .twitter{
+        height: 55px;
+    }
+    
+    .Linkedin{
+        height: 55px;
+    }
+}
+
+/* Vista desktop */
+@media only screen and (min-width: 1240px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Inicio de estilos sobre el body */
+    body/*Es el color de fondo de toda la pagina */{
+        background:#122620;  /* Es el color del fondo del sitio web */  
+    }
+    /* Final de estilos sobre el body */
+    
+    /* Inicio de estilos para el sitio wueb */
+    .Todo{
+        display: grid;
+        grid-template-areas: "header header" "section section" "footer footer";
+    }
+    /* Final de estilos para el sitio wueb */
+    
+    /* Inicio de estilos sobre el header */
+    .Todo__Header{
+        background:papayawhip;
+        margin-bottom: 100px; /* Espacio hacia arriba */
+        padding-left: 35px; /* Espacio izquierdo entre el contenido y el borde */
+        padding-right: 35px; /* Espacio de la derecha entre el contenido y el borde */
+        margin-bottom: 30px; /* Espacio hacia abajo */
+        margin-left: 15px;
+        margin-right: 15px;
+        height: 270px; /* Es el alto del header */
+        grid-area: header;
+    }
+    /* Final de estilos sobre el header */
+    
+    /* Inicio de estilos sobre el h1 */
+    h1{
+        color:black; /* Es el color de las letras */
+        font-size: 3em; /* Es el tamaño de las letras */
+        text-align: center; /* Es donde esta ubicado el elemento */
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Es el estilo de la letra */
+        margin-bottom: 70px; /* Es el espacio hacia abajo */
+    }
+    /* Final de estilos sobre el h2 */
+    
+    /* Inicio de estilos sobre el menu de navegacion */
+    .estilosParaArgentina,
+    .estilosParaBrasil,
+    .estilosParaPortugal,
+    .estilosParaFrancia,
+    .estilosParaItalia,
+    .estilosParaEspaña,
+    .estilosParaInglaterra,
+    .estilosParaContacto{
+      color: black;  /* Es el color de las letras */
+    }
+    /* Final de estilos sobre el menu de navegacion */
+    
+    
+    .Todo__Header__Nav{
+        position: relative;
+        background:gold ;
+    }
+    ul{
+        list-style: none;
+        font-size: 0;
+    }
+    li{
+        display: inline-block;
+        width: 12%; /* Esto sirve para que cada 12%, vaya un li */
+        position: relative;
+        font-size: 21px; /* Es el tamaño de las letras */
+    }
+    ul ul{
+        position: absolute;
+        display: none;
+    }
+    ul ul li{
+        display: block;
+        padding: 0; /* Es el espacio entre el contenido y el borde */
+        width: 100% ; /* Es el ancho del elemento */
+    }
+    ul li:hover ul{
+        display: block; /* Hace que se comporte en bloque */
+        border: 1px solid black; /* Borde del submenu */
+        background: gray; /* Fondo del submenu */
+    }
+    nav ul li ul li a{
+        color: black; /* Es el color de las letras */
+    }
+    
+    /* Inicio de estilos sobre la section */
+    .estiloParaSection{
+      margin-bottom: 50px; /* Espacio para abajo entre cada seccion */
+      display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+      flex-wrap: wrap; /* Hace que los elementos se ubiquen segun sus propiedades( en este caso es el ancho) */
+      grid-area: section;
+      margin-right: 15px; /* Espacio de la derecha entre el borde y el browser */
+      margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+      background: #F4EBD0;
+    }
+    /* Final de estilos sobre la section */
+    
+    /* Inicio de estilos sobre los h2 */
+    h2{
+        color: teal;/* Color de las letras del h2 */
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Estilo de las letras */
+        text-align: center; /* Alinea el texto en el centro */
+        font-size: 35px; /* Tamaño de la letra */
+        padding-bottom: 10px; /* Espacio hacia abajo entre el h2 y el siguiente contenido */
+    }
+    /* Final de estilos sobre los h2 */
+    
+    /* Inicio de estilos sobre el article 1, dedicado a los equipos participantes */
+    .estilosParaArticle-1{
+        border: 2px  black dashed; /* Borde del articulo 1 */
+        margin-top: 20px; /* Espacio de arrriba entre el article 1 y el borde de la section */
+        margin-bottom: 50px; /* Espacio de abajo entre el article 1 y los demas article */
+        margin-left: 25px; /* Espacio de la izquierda entre el article 1 y el borde  de la section */
+        width: 90%; /* Ancho del article */
+    }
+    /* Final de estilos sobre el article 1, dedicado a los equipos participantes */
+    
+    /* Inicio de estilos sobre los elementos del article 1 */
+    .contenedor-1,
+    .contenedor-2,
+    .contenedor-3,
+    .contenedor-4{
+        display: flex; /* Hace que los elementos hijos se conviertan de manera flexible de manera automatica */
+        justify-content: center; /* Alinea los elementos en el centro */
+        padding-bottom: 15px; /* Espacio entre los contenedores */
+    }
+    /* Final de estilos sobre los elementos del article 1 */
+    /* Inicio de estilos sobre el article 2, dedicado al equipo campeon */
+    .Section__Article-2{
+        width: 45%; /* Ancho del articulo */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de article 2, dedicado al equipo campeon */
+    
+    /* Inicio de estilos sobre el article 3, dedicado a las posiciones */
+    .Section__Article-3{
+        width: 45%; /* Ancho del article */
+        height: 41%; /* Alto del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de article 3, dedicado a las posiciones */
+    
+    .estilosParaArticle-3a{
+        width: 45%; /* Ancho del article */
+        height: 43%; /* Alto del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    
+    /*Inicio de estilos sobre el article 4, dedicado a los goleadores */
+    .Section__Article-4 {
+        width: 45%; /* Ancho del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Finald e article 4, dedicado a los goleadores */
+    
+    /* Inicio de estilos sobre el article 5, dedicado a los asistidores */
+    .Section__Article-5{
+        width: 45%; /* Ancho del article */
+        padding: 10px 10px 10px 10px; /* Espacio entre los elementos y el borde */
+        border: 2px black solid; /* Borde de todos los articulos */
+        margin-bottom: 50px; /* Espacio de abajo entre los articulos */
+        margin-left: 15px; /* Espacio de la izquierda entre los articulos */
+        margin-right: 15px; /* Espacio de la derecha entre los articulos */
+    }
+    /* Final de estilos sobre el article 5, dedicado a los asistidores */
+    nav{
+        
+    }
+    /* Inicio de estilos sobre la table */
+    table{
+        margin: 0 auto; /* Sirve para centrar las tablas */
+    }
+    /* Final de estilos sobre la table */
+    
+    /*Inicios de estilos sobre la caption */
+    section article table caption /* Color del fondo y de las letras del titulo de la tabla */{
+        background: springgreen; /* Fondo del titulo de las tablas */
+        color: black; /* Color de las letras del titulo */
+        font-family: sans-serif; /* Estilo de la letra */
+        border: 3px black solid; /* Borde del titulo */
+    }
+    /* Final de estilos sobre la caption */
+    
+    /* Inicio de estilos sobre los th */
+    table thead th{
+        border: 2px solid black; /* Bordes de los thbumeros,jugadores,etc) de la table */
+        color: darkred; /* Color de los th(posicion,numero,etc) de la table */
+        letter-spacing: 2px; /* Separacion entre las letras */
+    }
+    /* Final de estilos sobre los th */
+    
+    /* Inicio de estilos sobre los td */
+    table tbody td{
+        border: 1px solid black; /* Borde de todos los td de las tablas */
+        word-spacing: 2px; /* Es el espacio entre las letras */
+    }
+    /* Final de esstilos sobre los td */
+    
+    /*Inicio de estilos sobre el footer */
+    footer{
+        height: 70%;
+        padding-bottom: 50px; /* Espacio hacia abajo entre el contenido y el borde */
+        grid-area: footer;
+        margin-left: 15px; /* Espacio de la izquierda entre el borde y el browser */
+        margin-right: 15px; /* Espacio de la derecha entre el borde y el borwser */
+        background: #F4EBD0; /* Color del fondo */
+    }   
+    /* Final de estilos sobre el footer */
+    
+    .Footer__Imagenes{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 23px;
+    }
+    .facebook{
+        height: 55px;
+    }
+    
+    .instagram{
+        height: 55px;
+    }
+    
+    .twitter{
+        height: 55px;
+    }
+    
+    .Linkedin{
+        height: 55px;
+    }
+}
