@@ -1,0 +1,80 @@
+$imagenfb:  55px;
+$imagentw: 55px;
+$imagenig: 55px;
+$imagenld: 55px;
+$centro: center;
+$estilo: flex;
+$espacio: space-around;
+$paddingarriba: 23;
+$final: flex-end;
+$anchord: 30px;
+$paddingl: 0px;
+$paddingr: 0px;
+
+.facebook{
+    height: $imagenfb;
+}
+
+.facebook:hover{
+    width: $anchord;
+}
+.instagram{
+    height: $imagenig;
+}
+
+.instagram:hover{
+    width: $anchord;
+}
+
+.twitter{
+    height: $imagentw;
+}
+
+.twitter:hover{
+    width: $anchord;
+}
+
+.Linkedin{
+    height: $imagenld;
+}
+
+.Linkedin:hover{
+    width: $anchord;
+}
+
+h3{
+    text-align: $centro;
+}
+
+
+
+.estilosParaFooter{
+    display: $estilo;  
+}
+
+.estilosParaFooter{
+    justify-content: $espacio;
+}
+
+.estilosParaFooter{
+    align-items: $centro;
+}
+
+.estilosParaFooter{
+    padding-top: $paddingarriba;
+}
+
+.contanier-fluid{
+    padding-left: $paddingl;
+    padding-right: $paddingr;
+}
+
+
+@media only screen and (min-width: 1024px){
+    .navbar-expand-lg .navbar-collapse{justify-content: $final;}
+}
+
+
+
+
+
