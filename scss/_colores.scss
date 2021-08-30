@@ -2,7 +2,20 @@ $azul: blue;
 $amarillo: yellow;
 $negro: black;
 $blanco: white;
+$negroo: green;
+$azulcito: #1d75a3;
 
 h1{
     color: $azul;
 }
+
+thead{
+    color: $negro
+}
+h2{
+    color: $blanco;
+}
+body{
+    background: $blanco;
+}
+
