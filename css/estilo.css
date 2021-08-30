@@ -71,5 +71,23 @@ table{
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end; } }
 
+    /* vista desktop */
+@media only screen and (min-width: 1024px){
+	.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+	.footerFlex{display: flex;justify-content: space-around;}
+	p, span, li {font-size: 20px;}
+	h1{font-size: 50px;}
+	h3{font-size: 42px;}
+}
+
+
+/* vista mobile */
+@media only screen and (max-width: 767px){
+	.footerFlex{display: flex;flex-direction: column;}
+	p, li {font-size: 18px;}
+	h1{font-size: 40px;}
+	h3{font-size: 32px;}
+}
+
 nav {
   background: black; }
