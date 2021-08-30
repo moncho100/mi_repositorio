@@ -10,16 +10,19 @@ h1 {
   padding-right: 0px; }
 
   nav {
-    background: black; } /* color de fondo */
+    background: lightslategrey; } /* color de fondo */
 
 h2{
   color: white;
   text-align: center;
   background: black;
 }
-.article-1,
-.article-2{
-  border: 1px solid black;
+
+.imagen-1,
+.imagen-2{
+  height: 500px;
+}
+.imagen-1{
   margin-bottom: 15px;
 }
 h3 {
