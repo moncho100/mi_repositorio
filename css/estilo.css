@@ -1,3 +1,7 @@
+
+body{
+  background: white;
+}
 h1 {
   color: blue; }
 
@@ -31,21 +35,37 @@ h1 {
 h3 {
   text-align: center; }
 
-.estilosParaFooter {
-  display: flex; }
+.imagen{
+  height: 450px;
+  }
 
+.bg-red{
+  background: red;
+}
+h2{
+  color: white;
+  text-align: center;
+  background: black;
+}
+footer{
+  background: black;
+}
 .estilosParaFooter {
-  justify-content: space-around; }
-
-.estilosParaFooter {
-  align-items: center; }
-
-.estilosParaFooter {
-  padding-top: 23; }
+  display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 23px; 
+  background: black;
+;}
 
 .contanier-fluid {
   padding-left: 0px;
   padding-right: 0px; }
+
+table{
+    max-width: 100%;
+  }
+
 
 @media only screen and (min-width: 1024px) {
   .navbar-expand-lg .navbar-collapse {
